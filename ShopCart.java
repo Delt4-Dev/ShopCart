@@ -12,7 +12,7 @@ public class ShopCart {
         this.CC = new ArrayList<>();
     }
 
-    public void adicionaItem(String no, int qt) {
+    public void addToCart(String no, int qt) {
         CC.add(new Stock(no, qt));
     }
     public void buy() {
