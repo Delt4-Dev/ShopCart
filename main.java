@@ -4,10 +4,10 @@ public class Principal {
     public static void main(String[] args){
         ProductStock estoque = new ProductStock();
 
-        estoque.adicionaProduto(new Stock("monitor",500,100));
-        estoque.adicionaProduto(new Stock("telefone",150,300));
-        estoque.adicionaProduto(new Stock("teclado",70,50));
-        estoque.adicionaProduto(new Stock("mouse",50,50));
+        estoque.addToCart(new Stock("monitor",500,100));
+        estoque.addToCart(new Stock("telefone",150,300));
+        estoque.addToCart(new Stock("teclado",70,50));
+        estoque.addToCart(new Stock("mouse",50,50));
 
         ShopCart carrinho = new ShopCart(estoque);
 
